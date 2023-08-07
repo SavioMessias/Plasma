@@ -1,0 +1,21 @@
+* {
+    --dark-color--1: #22A39F;
+    --dark-color--2: #222222;
+    --dark-color--3: #434242;
+    --dark-color--4: #F3EFE0;
+}
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #434242 #ffffff;
+}
+*::-webkit-scrollbar {
+    width: 10px;
+}
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #434242;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+ }
