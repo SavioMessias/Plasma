@@ -6,7 +6,7 @@
                    <router-link to="/">
                     <img src="@/assets/Logo-P-White.svg" alt="Logo Plasma Branco">
                 </router-link>
-                    <span>"Dando spanalco aos que fazem acontecer nos bastidores."</span>  
+                    <span>"Dando palco aos que fazem acontecer nos bastidores."</span>  
                 </div>
                 <div class="footerSupport">
                     <div class="title">
