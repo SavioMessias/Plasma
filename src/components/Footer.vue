@@ -2,6 +2,12 @@
     <footer>
         <div class="footerContainer">
             <div class="row">
+                <div class="footerLogo">
+                   <router-link to="/">
+                    <img src="@/assets/Logo-P-White.svg" alt="Logo Plasma Branco">
+                </router-link>
+                    <span>"Dando spanalco aos que fazem acontecer nos bastidores."</span>  
+                </div>
                 <div class="footerSupport">
                     <div class="title">
                         <h3>SUPORTE</h3>
@@ -68,9 +74,21 @@ footer {
   background-color: #000;
   width: 100%;
 }
+.footerLogo {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    margin: 0 60px 100px 0;
+}
 img {
-    height: 200px;
-    widows: 200px;
+    width: 300px;
+    height: 120px;
+}
+img:hover{
+    transform: scale(0.98);
 }
 .row {
     display: flex;
