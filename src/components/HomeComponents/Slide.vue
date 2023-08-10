@@ -59,6 +59,7 @@ section {
     justify-content: center;
     align-items: center;
     height: 710px;
+    margin: 10px 0 0 0;
 }
 .arrows {
     display: flex;

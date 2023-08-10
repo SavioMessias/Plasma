@@ -42,7 +42,7 @@ export default {
 }
 
 .highlightContainer span {
-    background: rgba(217, 217, 217, 0.7);
+    background: rgba(255, 255, 255, 0.6);
     height: 100px;
     width: 620px;
     text-align: center;

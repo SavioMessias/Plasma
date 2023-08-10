@@ -28,6 +28,6 @@ export default {
   justify-content: space-between;
   background-color: #fff;
   width: 100%;
-  margin: 0 0 10px 0;
+  margin: 0;
 }
 </style>

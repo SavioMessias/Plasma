@@ -35,6 +35,9 @@ export default {
 </script>
 
 <style scoped>
+ul {
+  margin: 0;
+}
   p {
     font-size: 16px;
   }
