@@ -28,9 +28,6 @@ export default {
       ],
       seasons: [
         'Outono', 'Primavera', 'Inverno', 'Verão' 
-      ],
-      artists: [
-
       ]
     }
   }

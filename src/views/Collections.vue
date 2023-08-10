@@ -1,18 +1,19 @@
 <template>
   <PageMenu />
+  <HighlightEl />
 </template>
 
 <script>
 import PageMenu from '@/components/CollectionsComponents/PageMenu'
+import HighlightEl from '@/components/CollectionsComponents/HighlightEl'
+
 export default {
   components: {
-    PageMenu
+    PageMenu,
+    HighlightEl
   }, 
 }
 </script>
 
 <style scoped>
-  p {
-    font-size: 16px;
-  }
 </style>
