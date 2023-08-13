@@ -1,18 +1,22 @@
 <template>
   <div class="background">
     <PageMenu />
-    <HighlightEl />  
+    <HighlightEl />
+    <CollectionList />  
   </div>
 </template>
 
 <script>
 import PageMenu from '@/components/CollectionsComponents/PageMenu'
 import HighlightEl from '@/components/CollectionsComponents/HighlightEl'
+import CollectionList from '@/components/CollectionsComponents/CollectionList'
+
 
 export default {
   components: {
     PageMenu,
-    HighlightEl
+    HighlightEl,
+    CollectionList
   },
 }
 </script>

@@ -26,28 +26,38 @@ export default {
     justify-content: space-between;
     width: 1346px;
     height: 900px;
-    margin: 65px 0;
+    margin-bottom: 65px;
 }
 
 .highlightContainer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .highlightContainer img {
     width: 620px;
     height: 800px;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
 }
 
 .highlightContainer span {
-    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
     height: 100px;
     width: 620px;
     text-align: center;
-    padding: 30px;
-    font-size: 30px;
+    font-size: 43px;
     font-weight: bolder;
+    color: white;
+    display: none;
+}
+
+.highlightContainer:hover > img {
+    filter: brightness(20%);
+}
+.highlightContainer:hover > span {
+    display:  block;
 }
 </style>
