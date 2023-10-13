@@ -8,6 +8,9 @@ Plasma is my most ambitious project, with no intention of finishing it in a hurr
 
 ## 🚧 Work In Progress 🚧
 
+https://github.com/SavioMessias/Plasma/assets/126280277/e0af8fa4-14b9-4c26-aea0-128760be065c
+
+
 ## Project setup
 
 ```
